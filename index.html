@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Calendar 2024</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+        window.litDisableBundleWarning = true;
+      </script>
+    <script type="module" src="./components/app.js"></script>
+  </head>
+  <body>
+    <christmas-calendar></christmas-calendar>
+    
+    <!--
+    <script>
+      const MILLISSECONDS = 1000;
+      const SECONDS = 2;
+      const MAX_CELL = 200;
+
+      setInterval(() => {
+        const app = document.querySelector("christmas-calendar");
+        app.cellSize = MAX_CELL - (Math.random() * 10) * 5;
+      }, SECONDS * MILLISSECONDS);
+    </script>
+    <script>
+      const MILLISSECONDS = 1000;
+      const SECONDS = 5;
+      const DAYS = 31;
+
+      setTimeout(() => {
+        const app = document.querySelector("christmas-calendar");
+        app.days = DAYS;
+      }, SECONDS * MILLISSECONDS);
+    </script>-->
+  </body>
+</html>
